@@ -1,4 +1,4 @@
-FROM golang:1.22.4-alpine AS builder
+FROM golang:1.22.5-alpine AS builder
 
 RUN go install github.com/cloudflare/cloudflare-go/cmd/flarectl@v0.98.0
 
